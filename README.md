@@ -261,11 +261,6 @@ func (s *MpdClusterResource) GetState() statemachine.State {
 	return s.GetMpdCluster().Status.ClusterStatus
 }
 
-// GetState 获取资源当前状态
-func (s *DataMaxResource) GetState() statemachine.State {
-	return s.GetDataMax().Status.ClusterStatus
-}
-
 // UpdateState 更新资源当前状态(string)
 func (s *MpdClusterResource) UpdateState(state statemachine.State) (statemachine.StateResource, error) {
 	so, err := s.fetch()
