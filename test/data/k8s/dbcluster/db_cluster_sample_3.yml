@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: db_cluster_sample_3
+  namespace: default
+  annotations:
+    "interrupt.recover": T
+data:
+  clusterStatus: Interrupt

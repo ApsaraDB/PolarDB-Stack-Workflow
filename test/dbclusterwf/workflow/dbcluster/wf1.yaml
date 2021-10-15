@@ -1,0 +1,8 @@
+flowName: WF1
+recoverFromFirstStep: false
+steps:
+  - className: dbclusterwf.CreateStep1
+    stepName:  CreateStep1
+
+  - className: dbclusterwf.CreateStep2
+    stepName:  CreateStep2

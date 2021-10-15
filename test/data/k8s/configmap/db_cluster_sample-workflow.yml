@@ -1,0 +1,10 @@
+apiVersion: v1
+data:
+  1-WF1: '{"flowStatus":"completed","flowName":"Step1","startTime":"2021-07-21
+    08:32:47.492","completeTime":"2021-07-21 08:32:47","initContext":{},"runningSteps":[{"StepName":"Step1","stepStatus":"completed","stepStartTime":"2021-07-21
+    08:32:47","lastStepCompleteTime":"2021-07-21 08:32:47"},{"StepName":"Step2","stepStatus":"completed","stepStartTime":"2021-07-21
+    08:32:47","lastStepCompleteTime":"2021-07-21 08:32:47"}]}'
+kind: ConfigMap
+metadata:
+  name: db_cluster_sample-workflow
+  namespace: default

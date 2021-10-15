@@ -1,0 +1,7 @@
+groupName: Group1
+steps:
+  - className: dbclusterwf.GroupStep1
+    stepName:  GroupStep1
+
+  - className: dbclusterwf.GroupStep2
+    stepName:  GroupStep2
