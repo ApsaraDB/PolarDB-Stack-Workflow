@@ -5,13 +5,11 @@ go 1.16
 require (
 	bou.ke/monkey v1.0.2 // indirect
 	github.com/bouk/monkey v1.0.1
-	github.com/emicklei/go-restful v2.15.0+incompatible
 	github.com/go-logr/logr v0.1.0
 	github.com/golang/mock v1.4.4
 	github.com/pkg/errors v0.9.1
 	github.com/sirupsen/logrus v1.4.2
 	github.com/smartystreets/goconvey v1.6.4
-	gopkg.in/yaml.v1 v1.0.0-20140924161607-9f9df34309c0 // indirect
 	gopkg.in/yaml.v2 v2.3.0
 	k8s.io/api v0.17.2
 	k8s.io/apimachinery v0.17.2
