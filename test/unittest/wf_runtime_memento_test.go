@@ -19,15 +19,15 @@ package unittest
 import (
 	"testing"
 
-	"gitlab.alibaba-inc.com/polar-as/polar-wf-engine/define"
+	"github.com/ApsaraDB/PolarDB-Stack-Workflow/define"
 
 	"github.com/pkg/errors"
-	"gitlab.alibaba-inc.com/polar-as/polar-wf-engine/statemachine"
+	"github.com/ApsaraDB/PolarDB-Stack-Workflow/statemachine"
 
 	. "github.com/golang/mock/gomock"
 	. "github.com/smartystreets/goconvey/convey"
-	"gitlab.alibaba-inc.com/polar-as/polar-wf-engine/test/mock"
-	"gitlab.alibaba-inc.com/polar-as/polar-wf-engine/wfengine"
+	"github.com/ApsaraDB/PolarDB-Stack-Workflow/test/mock"
+	"github.com/ApsaraDB/PolarDB-Stack-Workflow/wfengine"
 )
 
 func Test_CreateWfRuntimeMementoCareTaker(t *testing.T) {

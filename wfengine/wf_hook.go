@@ -16,7 +16,7 @@
 
 package wfengine
 
-import "gitlab.alibaba-inc.com/polar-as/polar-wf-engine/define"
+import "github.com/ApsaraDB/PolarDB-Stack-Workflow/define"
 
 type WfHook interface {
 	// 流程初始化钩子

@@ -28,7 +28,7 @@ import (
 
 	"github.com/go-logr/logr"
 	"github.com/sirupsen/logrus"
-	"gitlab.alibaba-inc.com/polar-as/polar-wf-engine/wfengine"
+	"github.com/ApsaraDB/PolarDB-Stack-Workflow/wfengine"
 )
 
 type StepType string

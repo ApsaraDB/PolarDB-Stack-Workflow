@@ -24,7 +24,7 @@ import (
 	reflect "reflect"
 
 	gomock "github.com/golang/mock/gomock"
-	wfengine "gitlab.alibaba-inc.com/polar-as/polar-wf-engine/wfengine"
+	wfengine "github.com/ApsaraDB/PolarDB-Stack-Workflow/wfengine"
 )
 
 // MockWfMetaLoader is a mock of WfMetaLoader interface.

@@ -26,7 +26,7 @@ import (
 	"github.com/bouk/monkey"
 	"github.com/pkg/errors"
 	. "github.com/smartystreets/goconvey/convey"
-	implementwfengine "gitlab.alibaba-inc.com/polar-as/polar-wf-engine/implement/wfengine"
+	implementwfengine "github.com/ApsaraDB/PolarDB-Stack-Workflow/implement/wfengine"
 	"gopkg.in/yaml.v2"
 )
 

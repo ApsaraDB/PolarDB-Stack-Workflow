@@ -323,8 +323,8 @@ gitlab.alibaba-inc.com/polar-as/polar-common-domain v0.0.1-e12304b h1:M0TOK87YUn
 gitlab.alibaba-inc.com/polar-as/polar-common-domain v0.0.1-e12304b/go.mod h1:OvB+svyAr828A7VeUucE+UOxPn9sSGB+pOpFC+4aFJM=
 gitlab.alibaba-inc.com/polar-as/polar-standby-common v0.0.1-8f1e05d h1:bf57+LimbCXoCIbUAPsDFgyWHkSyPGp5Nl4Q8ubBS6w=
 gitlab.alibaba-inc.com/polar-as/polar-standby-common v0.0.1-8f1e05d/go.mod h1:tyBbPpRBRm8aGN7tEPgQoL9w6992/03ZxcvgOo6xFLQ=
-gitlab.alibaba-inc.com/polar-as/polar-wf-engine v0.0.1-597c2053/go.mod h1:6+WnGhOdytddSKnltWsxqRBBSBkxP0cjB3cDK70fjwY=
-gitlab.alibaba-inc.com/polar-as/polar-wf-engine v0.0.1-79daae7/go.mod h1:6+WnGhOdytddSKnltWsxqRBBSBkxP0cjB3cDK70fjwY=
+github.com/ApsaraDB/PolarDB-Stack-Workflow v0.0.1-597c2053/go.mod h1:6+WnGhOdytddSKnltWsxqRBBSBkxP0cjB3cDK70fjwY=
+github.com/ApsaraDB/PolarDB-Stack-Workflow v0.0.1-79daae7/go.mod h1:6+WnGhOdytddSKnltWsxqRBBSBkxP0cjB3cDK70fjwY=
 go.etcd.io/bbolt v1.3.3/go.mod h1:IbVyRI1SCnLcuJnV2u8VeU0CEYM7e686BmAb1XKL+uU=
 go.etcd.io/etcd v0.0.0-20191023171146-3cf2f69b5738/go.mod h1:dnLIgRNXwCJa5e+c6mIZCrds/GIG4ncV9HhK5PX7jPg=
 go.mongodb.org/mongo-driver v1.0.3/go.mod h1:u7ryQJ+DOzQmeO7zB6MHyr8jkEQvC8vH7qLUO4lqsUM=

@@ -22,11 +22,11 @@ import (
 	"sync"
 
 	"github.com/go-logr/logr"
-	"gitlab.alibaba-inc.com/polar-as/polar-wf-engine/define"
-	wfengineimpl "gitlab.alibaba-inc.com/polar-as/polar-wf-engine/implement/wfengine"
-	"gitlab.alibaba-inc.com/polar-as/polar-wf-engine/statemachine"
-	"gitlab.alibaba-inc.com/polar-as/polar-wf-engine/utils/k8sutil"
-	"gitlab.alibaba-inc.com/polar-as/polar-wf-engine/wfengine"
+	"github.com/ApsaraDB/PolarDB-Stack-Workflow/define"
+	wfengineimpl "github.com/ApsaraDB/PolarDB-Stack-Workflow/implement/wfengine"
+	"github.com/ApsaraDB/PolarDB-Stack-Workflow/statemachine"
+	"github.com/ApsaraDB/PolarDB-Stack-Workflow/utils/k8sutil"
+	"github.com/ApsaraDB/PolarDB-Stack-Workflow/wfengine"
 	corev1 "k8s.io/api/core/v1"
 )
 

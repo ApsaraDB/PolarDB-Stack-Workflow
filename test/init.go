@@ -27,8 +27,8 @@ import (
 
 	. "github.com/bouk/monkey"
 	. "github.com/golang/mock/gomock"
-	"gitlab.alibaba-inc.com/polar-as/polar-wf-engine/test/mock"
-	"gitlab.alibaba-inc.com/polar-as/polar-wf-engine/utils/k8sutil"
+	"github.com/ApsaraDB/PolarDB-Stack-Workflow/test/mock"
+	"github.com/ApsaraDB/PolarDB-Stack-Workflow/utils/k8sutil"
 	apicorev1 "k8s.io/api/core/v1"
 	k8sFake "k8s.io/client-go/kubernetes/fake"
 	"k8s.io/client-go/kubernetes/scheme"

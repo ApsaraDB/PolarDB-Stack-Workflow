@@ -17,8 +17,8 @@
 package wfengine
 
 import (
-	"gitlab.alibaba-inc.com/polar-as/polar-wf-engine/define"
-	"gitlab.alibaba-inc.com/polar-as/polar-wf-engine/statemachine"
+	"github.com/ApsaraDB/PolarDB-Stack-Workflow/define"
+	"github.com/ApsaraDB/PolarDB-Stack-Workflow/statemachine"
 )
 
 type Recover interface {

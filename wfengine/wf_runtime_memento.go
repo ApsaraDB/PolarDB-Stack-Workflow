@@ -23,9 +23,9 @@ import (
 	"strings"
 
 	"github.com/pkg/errors"
-	"gitlab.alibaba-inc.com/polar-as/polar-wf-engine/define"
-	"gitlab.alibaba-inc.com/polar-as/polar-wf-engine/statemachine"
-	"gitlab.alibaba-inc.com/polar-as/polar-wf-engine/utils"
+	"github.com/ApsaraDB/PolarDB-Stack-Workflow/define"
+	"github.com/ApsaraDB/PolarDB-Stack-Workflow/statemachine"
+	"github.com/ApsaraDB/PolarDB-Stack-Workflow/utils"
 )
 
 const flowSaveResourceNameKey = "_flowSaveResourceNameKey"

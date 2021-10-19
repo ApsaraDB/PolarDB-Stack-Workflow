@@ -19,15 +19,15 @@ package unittest
 import (
 	"testing"
 
-	"gitlab.alibaba-inc.com/polar-as/polar-wf-engine/define"
+	"github.com/ApsaraDB/PolarDB-Stack-Workflow/define"
 
-	"gitlab.alibaba-inc.com/polar-as/polar-wf-engine/statemachine"
+	"github.com/ApsaraDB/PolarDB-Stack-Workflow/statemachine"
 
-	"gitlab.alibaba-inc.com/polar-as/polar-wf-engine/implement"
-	implement_wfengine "gitlab.alibaba-inc.com/polar-as/polar-wf-engine/implement/wfengine"
-	"gitlab.alibaba-inc.com/polar-as/polar-wf-engine/test"
-	"gitlab.alibaba-inc.com/polar-as/polar-wf-engine/test/dbclusterwf"
-	"gitlab.alibaba-inc.com/polar-as/polar-wf-engine/utils/k8sutil"
+	"github.com/ApsaraDB/PolarDB-Stack-Workflow/implement"
+	implement_wfengine "github.com/ApsaraDB/PolarDB-Stack-Workflow/implement/wfengine"
+	"github.com/ApsaraDB/PolarDB-Stack-Workflow/test"
+	"github.com/ApsaraDB/PolarDB-Stack-Workflow/test/dbclusterwf"
+	"github.com/ApsaraDB/PolarDB-Stack-Workflow/utils/k8sutil"
 	"k8s.io/klog/klogr"
 
 	. "github.com/smartystreets/goconvey/convey"

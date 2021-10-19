@@ -24,8 +24,8 @@ import (
 	reflect "reflect"
 
 	gomock "github.com/golang/mock/gomock"
-	define "gitlab.alibaba-inc.com/polar-as/polar-wf-engine/define"
-	statemachine "gitlab.alibaba-inc.com/polar-as/polar-wf-engine/statemachine"
+	define "github.com/ApsaraDB/PolarDB-Stack-Workflow/define"
+	statemachine "github.com/ApsaraDB/PolarDB-Stack-Workflow/statemachine"
 )
 
 // MockRecover is a mock of Recover interface.

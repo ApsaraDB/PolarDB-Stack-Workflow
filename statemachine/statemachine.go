@@ -21,7 +21,7 @@ import (
 	"fmt"
 
 	"github.com/go-logr/logr"
-	"gitlab.alibaba-inc.com/polar-as/polar-wf-engine/utils"
+	"github.com/ApsaraDB/PolarDB-Stack-Workflow/utils"
 	"k8s.io/klog/klogr"
 )
 

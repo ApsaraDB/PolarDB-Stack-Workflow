@@ -26,9 +26,9 @@ import (
 	"github.com/bouk/monkey"
 	"github.com/pkg/errors"
 	. "github.com/smartystreets/goconvey/convey"
-	implementwfengine "gitlab.alibaba-inc.com/polar-as/polar-wf-engine/implement/wfengine"
-	"gitlab.alibaba-inc.com/polar-as/polar-wf-engine/test"
-	"gitlab.alibaba-inc.com/polar-as/polar-wf-engine/utils/k8sutil"
+	implementwfengine "github.com/ApsaraDB/PolarDB-Stack-Workflow/implement/wfengine"
+	"github.com/ApsaraDB/PolarDB-Stack-Workflow/test"
+	"github.com/ApsaraDB/PolarDB-Stack-Workflow/utils/k8sutil"
 	corev1 "k8s.io/api/core/v1"
 )
 

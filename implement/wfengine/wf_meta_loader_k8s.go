@@ -24,7 +24,7 @@ import (
 
 	"github.com/go-logr/logr"
 	"github.com/pkg/errors"
-	"gitlab.alibaba-inc.com/polar-as/polar-wf-engine/wfengine"
+	"github.com/ApsaraDB/PolarDB-Stack-Workflow/wfengine"
 	"gopkg.in/yaml.v2"
 	"k8s.io/klog/klogr"
 )

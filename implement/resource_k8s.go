@@ -19,7 +19,7 @@ package implement
 import (
 	"errors"
 
-	"gitlab.alibaba-inc.com/polar-as/polar-wf-engine/statemachine"
+	"github.com/ApsaraDB/PolarDB-Stack-Workflow/statemachine"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/runtime"
 )

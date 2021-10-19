@@ -18,10 +18,10 @@ package implement_wfengine
 
 import (
 	"github.com/pkg/errors"
-	"gitlab.alibaba-inc.com/polar-as/polar-wf-engine/implement"
-	"gitlab.alibaba-inc.com/polar-as/polar-wf-engine/statemachine"
-	"gitlab.alibaba-inc.com/polar-as/polar-wf-engine/utils/k8sutil"
-	"gitlab.alibaba-inc.com/polar-as/polar-wf-engine/wfengine"
+	"github.com/ApsaraDB/PolarDB-Stack-Workflow/implement"
+	"github.com/ApsaraDB/PolarDB-Stack-Workflow/statemachine"
+	"github.com/ApsaraDB/PolarDB-Stack-Workflow/utils/k8sutil"
+	"github.com/ApsaraDB/PolarDB-Stack-Workflow/wfengine"
 	corev1 "k8s.io/api/core/v1"
 	apierrors "k8s.io/apimachinery/pkg/api/errors"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"

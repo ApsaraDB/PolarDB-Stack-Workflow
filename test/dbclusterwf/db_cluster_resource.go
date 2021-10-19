@@ -18,9 +18,9 @@ package dbclusterwf
 
 import (
 	"github.com/go-logr/logr"
-	"gitlab.alibaba-inc.com/polar-as/polar-wf-engine/implement"
-	"gitlab.alibaba-inc.com/polar-as/polar-wf-engine/statemachine"
-	"gitlab.alibaba-inc.com/polar-as/polar-wf-engine/utils/k8sutil"
+	"github.com/ApsaraDB/PolarDB-Stack-Workflow/implement"
+	"github.com/ApsaraDB/PolarDB-Stack-Workflow/statemachine"
+	"github.com/ApsaraDB/PolarDB-Stack-Workflow/utils/k8sutil"
 	corev1 "k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/client-go/kubernetes/scheme"

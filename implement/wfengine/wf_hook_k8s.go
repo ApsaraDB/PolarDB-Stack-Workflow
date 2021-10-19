@@ -19,8 +19,8 @@ package implement_wfengine
 import (
 	"github.com/go-logr/logr"
 
-	"gitlab.alibaba-inc.com/polar-as/polar-wf-engine/define"
-	"gitlab.alibaba-inc.com/polar-as/polar-wf-engine/wfengine"
+	"github.com/ApsaraDB/PolarDB-Stack-Workflow/define"
+	"github.com/ApsaraDB/PolarDB-Stack-Workflow/wfengine"
 )
 
 type DefaultWorkflowHook struct {

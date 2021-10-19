@@ -24,9 +24,9 @@ import (
 
 	. "github.com/golang/mock/gomock"
 	. "github.com/smartystreets/goconvey/convey"
-	implement_wfengine "gitlab.alibaba-inc.com/polar-as/polar-wf-engine/implement/wfengine"
-	"gitlab.alibaba-inc.com/polar-as/polar-wf-engine/test/mock"
-	"gitlab.alibaba-inc.com/polar-as/polar-wf-engine/wfengine"
+	implement_wfengine "github.com/ApsaraDB/PolarDB-Stack-Workflow/implement/wfengine"
+	"github.com/ApsaraDB/PolarDB-Stack-Workflow/test/mock"
+	"github.com/ApsaraDB/PolarDB-Stack-Workflow/wfengine"
 	"k8s.io/klog/klogr"
 )
 

@@ -24,8 +24,8 @@ import (
 	reflect "reflect"
 
 	gomock "github.com/golang/mock/gomock"
-	define "gitlab.alibaba-inc.com/polar-as/polar-wf-engine/define"
-	wfengine "gitlab.alibaba-inc.com/polar-as/polar-wf-engine/wfengine"
+	define "github.com/ApsaraDB/PolarDB-Stack-Workflow/define"
+	wfengine "github.com/ApsaraDB/PolarDB-Stack-Workflow/wfengine"
 )
 
 // MockWfHook is a mock of WfHook interface.

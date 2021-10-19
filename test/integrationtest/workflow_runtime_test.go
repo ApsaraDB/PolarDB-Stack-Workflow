@@ -21,12 +21,12 @@ import (
 	"testing"
 
 	. "github.com/smartystreets/goconvey/convey"
-	"gitlab.alibaba-inc.com/polar-as/polar-wf-engine/implement"
-	"gitlab.alibaba-inc.com/polar-as/polar-wf-engine/statemachine"
-	"gitlab.alibaba-inc.com/polar-as/polar-wf-engine/test"
-	"gitlab.alibaba-inc.com/polar-as/polar-wf-engine/test/dbclusterwf"
-	"gitlab.alibaba-inc.com/polar-as/polar-wf-engine/utils/k8sutil"
-	"gitlab.alibaba-inc.com/polar-as/polar-wf-engine/wfengine"
+	"github.com/ApsaraDB/PolarDB-Stack-Workflow/implement"
+	"github.com/ApsaraDB/PolarDB-Stack-Workflow/statemachine"
+	"github.com/ApsaraDB/PolarDB-Stack-Workflow/test"
+	"github.com/ApsaraDB/PolarDB-Stack-Workflow/test/dbclusterwf"
+	"github.com/ApsaraDB/PolarDB-Stack-Workflow/utils/k8sutil"
+	"github.com/ApsaraDB/PolarDB-Stack-Workflow/wfengine"
 	"k8s.io/klog/klogr"
 )
 
