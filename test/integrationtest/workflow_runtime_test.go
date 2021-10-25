@@ -1,4 +1,4 @@
-/* 
+/*
 *Copyright (c) 2019-2021, Alibaba Group Holding Limited;
 *Licensed under the Apache License, Version 2.0 (the "License");
 *you may not use this file except in compliance with the License.
@@ -13,20 +13,19 @@
 *limitations under the License.
  */
 
-
 package integrationtest
 
 import (
 	"context"
 	"testing"
 
-	. "github.com/smartystreets/goconvey/convey"
 	"github.com/ApsaraDB/PolarDB-Stack-Workflow/implement"
 	"github.com/ApsaraDB/PolarDB-Stack-Workflow/statemachine"
 	"github.com/ApsaraDB/PolarDB-Stack-Workflow/test"
 	"github.com/ApsaraDB/PolarDB-Stack-Workflow/test/dbclusterwf"
 	"github.com/ApsaraDB/PolarDB-Stack-Workflow/utils/k8sutil"
 	"github.com/ApsaraDB/PolarDB-Stack-Workflow/wfengine"
+	. "github.com/smartystreets/goconvey/convey"
 	"k8s.io/klog/klogr"
 )
 

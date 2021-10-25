@@ -1,4 +1,4 @@
-/* 
+/*
 *Copyright (c) 2019-2021, Alibaba Group Holding Limited;
 *Licensed under the Apache License, Version 2.0 (the "License");
 *you may not use this file except in compliance with the License.
@@ -13,7 +13,6 @@
 *limitations under the License.
  */
 
-
 package unittest
 
 import (
@@ -23,10 +22,10 @@ import (
 	"strings"
 	"testing"
 
+	implementwfengine "github.com/ApsaraDB/PolarDB-Stack-Workflow/implement/wfengine"
 	"github.com/bouk/monkey"
 	"github.com/pkg/errors"
 	. "github.com/smartystreets/goconvey/convey"
-	implementwfengine "github.com/ApsaraDB/PolarDB-Stack-Workflow/implement/wfengine"
 	"gopkg.in/yaml.v2"
 )
 

@@ -1,4 +1,4 @@
-/* 
+/*
 *Copyright (c) 2019-2021, Alibaba Group Holding Limited;
 *Licensed under the Apache License, Version 2.0 (the "License");
 *you may not use this file except in compliance with the License.
@@ -13,7 +13,6 @@
 *limitations under the License.
  */
 
-
 package test
 
 import (
@@ -25,10 +24,10 @@ import (
 	r "runtime"
 	"testing"
 
-	. "github.com/bouk/monkey"
-	. "github.com/golang/mock/gomock"
 	"github.com/ApsaraDB/PolarDB-Stack-Workflow/test/mock"
 	"github.com/ApsaraDB/PolarDB-Stack-Workflow/utils/k8sutil"
+	. "github.com/bouk/monkey"
+	. "github.com/golang/mock/gomock"
 	apicorev1 "k8s.io/api/core/v1"
 	k8sFake "k8s.io/client-go/kubernetes/fake"
 	"k8s.io/client-go/kubernetes/scheme"

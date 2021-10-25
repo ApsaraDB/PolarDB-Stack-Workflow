@@ -1,4 +1,4 @@
-/* 
+/*
 *Copyright (c) 2019-2021, Alibaba Group Holding Limited;
 *Licensed under the Apache License, Version 2.0 (the "License");
 *you may not use this file except in compliance with the License.
@@ -13,14 +13,13 @@
 *limitations under the License.
  */
 
-
 package dbclusterwf
 
 import (
-	"github.com/go-logr/logr"
 	"github.com/ApsaraDB/PolarDB-Stack-Workflow/implement"
 	"github.com/ApsaraDB/PolarDB-Stack-Workflow/statemachine"
 	"github.com/ApsaraDB/PolarDB-Stack-Workflow/utils/k8sutil"
+	"github.com/go-logr/logr"
 	corev1 "k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/client-go/kubernetes/scheme"
